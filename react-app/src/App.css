@@ -103,6 +103,15 @@ header {
 .centered__options p {
     margin: 0px 6px;
     text-align: center;
+    cursor: pointer;
+    font-weight: 600;
+}
+.centered__options p:not(.firstCenter):hover {
+    color: #484b6a;
+}
+.clearCompleted:hover {
+    color: #484b6a;
+    cursor: pointer;
 }
 
 .all {
